@@ -7,6 +7,7 @@ Image Banner Designed by HuberHaYu<br>
 # CN<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
+## ↓当前开发进度↓（45%）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
@@ -23,3 +24,4 @@ Image Banner Designed by HuberHaYu<br>
 ### 歌词 | 实时后期特效
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
+### 滚动模糊效果（歌词、播放列表）
