@@ -25,6 +25,6 @@ Image Banner Designed by HuberHaYu<br>
 ### 歌词 | 实时后期特效
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
-### 滚动模糊效果（歌词、播放列表）
+### “追焦”滚动效果（歌词、播放列表）
 ![HX-Player](https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg)<br>
 ![HX-Player](https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg)<br>
