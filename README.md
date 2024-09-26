@@ -1,6 +1,6 @@
 # HXPlayer
 ## Perfect local MusicPlayer on Android! | 超棒超好看的安卓本地音乐播放器！<br>
-![HX-Player Banner Designed by HuberHaYu](https://huberhayu.github.io/HXPlayer/blob/main/image/banner.jpg)<br>
+![HX-Player Banner Designed by HuberHaYu](https://huberhayu.github.io/HXPlayer/image/banner.jpg)<br>
 Image Banner Designed by HuberHaYu<br>
 ### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
 ### YouTube: https://www.youtube.com/@ameikarewa2116
@@ -28,8 +28,8 @@ Image Banner Designed by HuberHaYu<br>
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
 ### “追焦”滚动效果（歌词、播放列表）
-<img src="https://huberhayu.github.io/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
-<img src="https://huberhayu.github.io/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
+<img src="https://huberhayu.github.io/HXPlayer/image/X.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://huberhayu.github.io/HXPlayer/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
 # EN<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
@@ -51,5 +51,5 @@ Smart bass and volume stabilization system<br>
 #### 1. Supports importing lrc, vtt, and other mainstream lyrics format files (vtt format support in development)
 #### 2. Unique efx song effects file, supports various customizable immersive effects (in development)
 ### "Focus-following" scrolling effect (lyrics, playlist)
-<img src="huberhayu.github.io/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
-<img src="huberhayu.github.io/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://huberhayu.github.io/HXPlayer/image/X.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://huberhayu.github.io/HXPlayer/image/Y.jpg" alt="HX-Player" width="400"/><br>
