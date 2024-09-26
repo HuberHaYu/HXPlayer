@@ -4,8 +4,7 @@
 Image Banner Designed by HuberHaYu<br>
 ### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
 ### YouTube: https://www.youtube.com/@ameikarewa2116
-### 此项目所有功能全程个人开发，暂无任何团队加入，制作不易，感谢支持！
-
+### 此项目所有功能全程个人开发，暂无任何团队加入，制作不易，感谢支持！<br><br>
 # CN<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
