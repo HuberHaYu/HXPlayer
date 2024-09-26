@@ -1,5 +1,5 @@
 # HXPlayer
-## Perfect local MusicPlayer on Android! | 超棒超好看的安卓本地音乐播放器！<br>
+## Perfect local MusicPlayer for Android! | 超棒超好看的安卓本地音乐播放器！<br>
 ![HX-Player Banner Designed by HuberHaYu](https://huberhayu.github.io/HXPlayer/image/banner.jpg)<br>
 Image Banner Designed by HuberHaYu<br>
 ### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
