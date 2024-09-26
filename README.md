@@ -1,5 +1,5 @@
 # HXPlayer
-## Perfect local MusicPlayer! | 超棒超好看的安卓本地音乐播放器！<br>
+## Perfect local MusicPlayer on Android! | 超棒超好看的安卓本地音乐播放器！<br>
 ![HX-Player Banner Designed by HuberHaYu](https://github.com/HuberHaYu/HXPlayer/blob/main/image/banner.jpg)<br>
 Image Banner Designed by HuberHaYu<br>
 ### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
@@ -26,5 +26,51 @@ Image Banner Designed by HuberHaYu<br>
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
 ### “追焦”滚动效果（歌词、播放列表）
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
+# EN<br>
+#### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
+## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
+## ↓Current development progress↓ (45%)
+## Player Features:
+### Playback Specifications:
+Standard max supported quality: 192Khz | 24Bit<br>
+Max supported file quality: 384Khz | 24Bit (full functionality not guaranteed, may require a DAC)<br>
+Max supported channels: 5.1<br>
+Supported formats: wav, mp3, flac, ogg, ac3... (Other advanced formats like dsd, eac3 are still in development)
+### Full app support for non-linear animations at max frame rate!
+### Immersive Display:
+1. Dynamic fluid background (requires cover image in the song, otherwise ineffective)<br>
+2. Dynamic audio response (visual spectrum)<br>
+### Audio Processing:
+Smart Eq processing, no intervention needed<br>
+Smart bass and volume stabilization system<br>
+### Lyrics | Real-time post-processing effects
+#### 1. Supports importing lrc, vtt, and other mainstream lyrics format files (vtt format support in development)
+#### 2. Unique efx song effects file, supports various customizable immersive effects (in development)
+### "Focus-following" scrolling effect (lyrics, playlist)
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
+# JP<br>
+#### 開発進捗をここで常にフォロー。現在はベータ開発テスト段階であり、最終製品を表すものではありません。<br>
+## HXPlayerはAndroid 12に基づいて開発されています。デバイスのAndroidバージョンが12以上であることを確認してください。
+## ↓現在の開発進捗↓（45％）
+## プレーヤー機能：
+### 再生仕様：
+標準最大対応品質：192Khz | 24Bit<br>
+最大対応ファイル品質：384Khz | 24Bit（完全な動作は保証されておらず、DACが必要な場合があります）<br>
+最大対応チャンネル：5.1<br>
+対応フォーマット：wav, mp3, flac, ogg, ac3...（他の高度なフォーマット、例えばdsd、eac3は開発中です）
+### アプリ全体で最大フレームレートの非線形アニメーションをサポート！
+### 没入型ディスプレイ：
+1. ダイナミック流体背景（カバー画像を含む楽曲が必要、そうでなければ無効）<br>
+2. ダイナミックなオーディオレスポンス（視覚スペクトル）<br>
+### オーディオ処理：
+スマートEq処理、介入不要<br>
+スマート低音と音量安定システム<br>
+### 歌詞 | リアルタイム後処理エフェクト
+#### 1. lrc, vttなどの主流の歌詞フォーマットファイルのインポートをサポート（vttフォーマットのサポートは開発中）
+#### 2. 独自のefx楽曲エフェクトファイル、各種カスタマイズ可能な没入型エフェクトをサポート（開発中）
+### 「フォーカスフォロー」スクロールエフェクト（歌詞、プレイリスト）
 <img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
 <img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br>
