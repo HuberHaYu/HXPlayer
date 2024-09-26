@@ -26,5 +26,5 @@ Image Banner Designed by HuberHaYu<br>
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
 ### “追焦”滚动效果（歌词、播放列表）
-![HX-Player](https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg)<br>
-![HX-Player](https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg)<br>
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/X.jpg" alt="HX-Player" width="400"/><br>
+<img src="https://github.com/HuberHaYu/HXPlayer/blob/main/image/Y.jpg" alt="HX-Player" width="400"/><br>
