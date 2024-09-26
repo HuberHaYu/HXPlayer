@@ -1,7 +1,7 @@
 # HXPlayer
 ## Perfect local MusicPlayer! | 超棒的本地音乐播放器！<br>
 ![HX-Player](https://github.com/HuberHaYu/HXPlayer/blob/main/image/banner.jpg)<br>
-### BiliBili UID:194639276(Huber_HaYu)
+### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
 ### YouTube: https://www.youtube.com/@ameikarewa2116
 # CN<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
