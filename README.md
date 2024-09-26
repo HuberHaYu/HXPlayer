@@ -4,9 +4,9 @@
 Image Banner Designed by HuberHaYu<br>
 ### BiliBili UID:194639276(Huber_HaYu)https://space.bilibili.com/194639276?spm_id_from=333.1007.0.0
 ### YouTube: https://www.youtube.com/@ameikarewa2116
-### 此项目所有功能为个人开发，暂无任何团队加入，制作不易，感谢支持！<br><br><br><br>
+### 此项目所有功能为个人开发，暂无任何团队加入，制作不易，感谢支持！<br>
 ### All features of this project are developed solely by an individual. No team has joined at this time. Developing it is not easy, and your support is greatly appreciated!
-<br><br><br><br>
+<br>
 ### 本プロジェクトのすべての機能は個人によって開発されています。現在のところチームは参加しておりません。制作は容易ではありませんので、ご支援いただければ幸いです！
 <br><br><br><br>
 # CN<br>
