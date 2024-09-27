@@ -7,6 +7,7 @@ Image Banner Designed by HuberHaYu<br>
 ### 此项目所有功能为个人开发，暂无任何团队加入，制作不易，感谢支持！<br>
 ### All features of this project are developed solely by an individual. No team has joined at this time. Developing it is not easy, and your support is greatly appreciated!<br>
 ### 本プロジェクトのすべての機能は個人によって開発されています。現在のところチームは参加しておりません。制作は容易ではありませんので、ご支援いただければ幸いです！<br><br><br><br>
+### Referenced github projects (FFmpeg): https://github.com/tanersener/mobile-ffmpeg<br><br>
 # CN<br>
 ## 最低推荐配置：骁龙870/888<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
