@@ -12,7 +12,7 @@ Image Banner Designed by HuberHaYu<br>
 ## 最低推荐配置：骁龙870/888<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
-## ↓当前开发进度↓（45%）
+## ↓当前开发进度↓（60%）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
@@ -24,6 +24,7 @@ Image Banner Designed by HuberHaYu<br>
 1. 动态流体背景（需要包含封面的歌曲，否则无效）<br>
 2. 动态音频响应（可视化频谱）<br>
 ### 音频处理：
+支持强制升格音频质量，最高可达到192Khz<br>
 智能Eq处理，无需干预<br>
 智能低频及音量稳定系统<br>
 ### 歌词 | 实时后期特效
@@ -36,7 +37,7 @@ Image Banner Designed by HuberHaYu<br>
 ## Minimum System Requirements: Snapdragon 870/888<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (45%)
+## ↓Current development progress↓ (60%)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
@@ -48,6 +49,7 @@ Supported formats: wav, mp3, flac, ogg, ac3... (Other advanced formats like dsd,
 1. Dynamic fluid background (requires cover image in the song, otherwise ineffective)<br>
 2. Dynamic audio response (visual spectrum)<br>
 ### Audio Processing:
+Upgraded AudioQuality, Max:192Khz
 Smart Eq processing, no intervention needed<br>
 Smart bass and volume stabilization system<br>
 ### Lyrics | Real-time post-processing effects
