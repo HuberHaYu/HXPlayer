@@ -9,7 +9,7 @@ Image Banner Designed by HuberHaYu<br>
 ### 本プロジェクトのすべての機能は個人によって開発されています。現在のところチームは参加しておりません。制作は容易ではありませんので、ご支援いただければ幸いです！<br><br><br><br>
 ### Referenced github projects (FFmpeg): https://github.com/tanersener/mobile-ffmpeg<br><br>
 # CN<br>
-## 最低推荐配置：骁龙870/888<br>
+## 最低推荐配置：骁龙870/8Gen1<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
 ## ↓当前开发进度↓（60%）
@@ -34,7 +34,7 @@ Image Banner Designed by HuberHaYu<br>
 <img src="https://huberhayu.github.io/HXPlayer/image/X.jpg" alt="HX-Player" width="400"/><br>
 <img src="https://huberhayu.github.io/HXPlayer/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
 # EN<br>
-## Minimum System Requirements: Snapdragon 870/888<br>
+## Minimum System Requirements: Snapdragon 870/8Gen1<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
 ## ↓Current development progress↓ (60%)
