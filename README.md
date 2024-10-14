@@ -21,7 +21,7 @@ Image Banner Designed by HuberHaYu<br>
 支持格式：wav,mp3,flac,ogg,ac3...（其它高级格式 如dsd,eac3等还在开发）
 ### APP全局支持满帧率的非线性动画！！
 ### 沉浸显示：
-1. 动态流体背景（需要包含封面的歌曲，否则无效）<br>
+1. 动态流体背景<br>
 2. 动态音频响应（可视化频谱）<br>
 ### 音频处理：
 支持强制升格音频质量，最高可达到192Khz<br>
@@ -46,7 +46,7 @@ Max supported channels: 5.1<br>
 Supported formats: wav, mp3, flac, ogg, ac3... (Other advanced formats like dsd, eac3 are still in development)
 ### Full app support for non-linear animations at max frame rate!
 ### Immersive Display:
-1. Dynamic fluid background (requires cover image in the song, otherwise ineffective)<br>
+1. Dynamic fluid background<br>
 2. Dynamic audio response (visual spectrum)<br>
 ### Audio Processing:
 Upgraded AudioQuality, Max:192Khz
