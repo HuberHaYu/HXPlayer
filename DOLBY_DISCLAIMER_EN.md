@@ -9,7 +9,7 @@ This software is intended for personal, non-commercial use only, for playing med
 3. Dolby audio features will only be enabled on devices with native Dolby audio codec support.
 4. Devices without Dolby audio support will not be able to use related features.
 
-## Disclaimer of Liability
+## Disclaimer of App
 
 1. This software is open-source and free, distributed under the GPL 3.0 license.
 2. Users must ensure they have legal rights to play their media content.
