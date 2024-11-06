@@ -37,7 +37,7 @@ Image Banner Designed by HuberHaYu<br>
 ## Minimum System Requirements: Snapdragon 870/8Gen1<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (70%)
+## ↓Current development progress↓ (80%)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
