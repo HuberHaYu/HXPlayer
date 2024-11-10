@@ -8,7 +8,6 @@ Image Banner Designed by HuberHaYu<br>
 ### 制作不易，感谢支持！<br>
 ### Developing it is not easy, and your support is greatly appreciated!<br>
 ### 制作は容易ではありませんので、ご支援いただければ幸いです！<br><br><br><br>
-### Referenced github projects (FFmpeg): https://github.com/tanersener/mobile-ffmpeg<br><br>
 # CN<br>
 ## 最低推荐配置：骁龙870/8Gen1<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
