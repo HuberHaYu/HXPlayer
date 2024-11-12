@@ -25,6 +25,9 @@ Image Banner Designed by HuberHaYu<br>
 ### 沉浸显示：
 1. 动态流体背景<br>
 2. 动态音频响应（可视化频谱）<br>
+3. 屏幕圆角处理<br>
+![](https://huberhayu.github.io/HXPlayer/image/A2.jpg)<br>
+![](https://huberhayu.github.io/HXPlayer/image/A.jpg)<br>
 ### 音频处理：
 支持强制升格音频质量，最高可达到192Khz<br>
 智能Eq处理，无需干预<br>
@@ -49,6 +52,9 @@ Supported formats: wav,mp3,flac,alac,ogg,dsd （Partial format requires device s
 ### Immersive Display:
 1. Dynamic fluid background<br>
 2. Dynamic audio response (visual spectrum)<br>
+3. Screen rounded corners<br>
+![](https://huberhayu.github.io/HXPlayer/image/A2.jpg)<br>
+![](https://huberhayu.github.io/HXPlayer/image/A.jpg)<br>
 ### Audio Processing:
 Upgraded AudioQuality, Max:192Khz
 Smart Eq processing, no intervention needed<br>
