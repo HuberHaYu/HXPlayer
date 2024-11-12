@@ -33,8 +33,7 @@ Image Banner Designed by HuberHaYu<br>
 #### 1. 支持导入lrc,vtt等主流歌词格式文件（vtt格式支持开发中）
 #### 2. 独创efx歌曲特效文件，支持各类自定义沉浸式效果（开发中）
 ### “追焦”滚动效果（歌词、播放列表）
-<img src="https://huberhayu.github.io/HXPlayer/image/X.jpg" alt="HX-Player" width="400"/><br>
-<img src="https://huberhayu.github.io/HXPlayer/image/Y.jpg" alt="HX-Player" width="400"/><br><br><br><br><br>
+<br><br><br><br>
 # EN<br>
 ## Minimum System Requirements: Snapdragon 870/8Gen1<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
@@ -58,5 +57,3 @@ Smart bass and volume stabilization system<br>
 #### 1. Supports importing lrc, vtt, and other mainstream lyrics format files (vtt format support in development)
 #### 2. Unique efx song effects file, supports various customizable immersive effects (in development)
 ### "Focus-following" scrolling effect (lyrics, playlist)
-<img src="https://huberhayu.github.io/HXPlayer/image/X.jpg" alt="HX-Player" width="400"/><br>
-<img src="https://huberhayu.github.io/HXPlayer/image/Y.jpg" alt="HX-Player" width="400"/><br>
