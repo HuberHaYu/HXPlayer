@@ -14,7 +14,7 @@ Image Banner Designed by HuberHaYu<br>
 ## 最低推荐配置：骁龙870/8Gen1<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
-## ↓当前开发进度↓（80%）
+## ↓当前开发进度↓（85%）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
@@ -41,7 +41,7 @@ Image Banner Designed by HuberHaYu<br>
 ## Minimum System Requirements: Snapdragon 870/8Gen1<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (80%)
+## ↓Current development progress↓ (85%)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
