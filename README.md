@@ -2,6 +2,7 @@
 ## 开发中（Under development）
 ## 已开放针对Java语言的控件动画开源框架（不包含插值器'Interpolator'）
 ## An open source framework for widget animation in Java language has been released (excluding interpolator)
+### Goto '/OpenSource/Animation_basic_logic' to get animation framework
 ## Perfect local MusicPlayer for Android! | 超棒超好看的安卓本地音乐播放器！<br>
 ![HX-Player Banner Designed by HuberHaYu](https://huberhayu.github.io/HXPlayer/image/banner.jpg)<br>
 Image Banner Designed by HuberHaYu<br>
