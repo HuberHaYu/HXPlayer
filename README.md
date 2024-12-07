@@ -1,7 +1,7 @@
 # HXPlayer
 ## 开发中（Under development）
-## [开源特殊规定！务必查看！](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)
-## [⚠️ Important Open Source Notice! ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)
+**[⚠️ 开源特殊规定！务必查看！ ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br>**
+**[⚠️ Important Open Source Notice! ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br>**
 ## 已开放针对Java语言的控件动画开源框架
 ## An open source framework for widget animation in Java language has been released
 ### Goto '/OpenSource/Animation_basic_logic' to get animation framework
