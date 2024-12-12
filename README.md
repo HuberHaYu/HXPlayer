@@ -16,10 +16,10 @@ Image Banner Designed by HuberHaYu<br>
 ### [查看歌词界面demo | View lyrics interface demo](https://huberhayu.github.io/HXPlayer/video_demo/A.mp4)
 ### [查看列表动画demo | View list animation demo](https://huberhayu.github.io/HXPlayer/video_demo/B.mp4)
 # CN<br>
-## 最低推荐配置：骁龙870/8Gen1<br>
+## 最低推荐配置：骁龙860/8Gen1<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
-## ↓当前开发进度↓（97%）
+## ↓当前开发进度↓（98%）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
@@ -43,10 +43,10 @@ Image Banner Designed by HuberHaYu<br>
 ### “追焦”滚动效果（歌词、播放列表）
 <br><br><br><br>
 # EN<br>
-## Minimum System Requirements: Snapdragon 870/8Gen1<br>
+## Minimum System Requirements: Snapdragon 860/8Gen1<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (97%)
+## ↓Current development progress↓ (98%)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
