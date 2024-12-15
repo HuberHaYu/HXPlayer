@@ -13,8 +13,10 @@ Image Banner Designed by HuberHaYu<br>
 ### 制作不易，感谢支持！<br>
 ### Developing it is not easy, and your support is greatly appreciated!<br>
 ### 制作は容易ではありませんので、ご支援いただければ幸いです！<br><br><br><br>
-### [查看歌词界面demo | View lyrics interface demo](https://huberhayu.github.io/HXPlayer/video_demo/A.mp4)
-### [查看列表动画demo | View list animation demo](https://huberhayu.github.io/HXPlayer/video_demo/B.mp4)
+### Lyrics Layout - 歌词布局
+![Lyrics Layout - 2024.12.15 Beta.Version](https://huberhayu.github.io/HXPlayer/image/Lyrics_Demo.jpg)<br>
+### SongList Layout - 列表布局
+![SongList Layout - 2024.12.15 Beta.Version](https://huberhayu.github.io/HXPlayer/image/List_Demo.jpg)<br>
 # CN<br>
 ## 最低推荐配置：骁龙860/8Gen1<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
