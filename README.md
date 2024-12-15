@@ -18,7 +18,7 @@ Image Banner Designed by HuberHaYu<br>
 ### SongList Layout - 列表布局
 ![SongList Layout - 2024.12.15 Beta.Version](https://huberhayu.github.io/HXPlayer/image/List_Demo.jpg)<br>
 # CN<br>
-## 最低推荐配置：骁龙860/8Gen1<br>
+## 最低推荐配置：骁龙865<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
 ## ↓当前开发进度↓（98%）
@@ -45,7 +45,7 @@ Image Banner Designed by HuberHaYu<br>
 ### “追焦”滚动效果（歌词、播放列表）
 <br><br><br><br>
 # EN<br>
-## Minimum System Requirements: Snapdragon 860/8Gen1<br>
+## Minimum System Requirements: Snapdragon 865<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
 ## ↓Current development progress↓ (98%)
