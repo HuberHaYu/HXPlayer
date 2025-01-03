@@ -21,13 +21,14 @@ Image Banner Designed by HuberHaYu<br>
 ## 最低推荐配置：骁龙865<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
-## ↓当前开发进度↓（98%）
+## ↓当前开发进度↓（即将发布）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
 最高支持文件质量：384Khz | 24Bit（不保证完全生效，可能需要数模转换器）<br>
 支持声道：单声道，立体声，四声道，5.1，7.1<br>
-支持格式：wav,mp3,flac,alac,ogg,dsd(部分格式需要设备本身支持，并非内置编码器，不包含数字版权格式)
+支持格式：wav,mp3,flac,alac,ogg,dsd(部分格式需要设备本身支持，并非内置编码器，不包含数字版权格式)<br>
+支持音频Offload硬件解码
 ### APP全局支持满帧率的非线性动画！！
 ### 沉浸显示：
 1. 动态流体背景<br>
@@ -48,13 +49,14 @@ Image Banner Designed by HuberHaYu<br>
 ## Minimum System Requirements: Snapdragon 865<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (98%)
+## ↓Current development progress↓ (Comming Soon)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
 Max supported file quality: 384Khz | 24Bit (full functionality not guaranteed, may require a DAC)<br>
 Supported channels: Mono, Stereo, Quattro, 5.1, 7.1<br>
-Supported formats: wav,mp3,flac,alac,ogg,dsd （Partial format requires device support, not built-in encoder, Does not include digital copyright formats）
+Supported formats: wav,mp3,flac,alac,ogg,dsd （Partial format requires device support, not built-in encoder, Does not include digital copyright formats）<br>
+Supported offload hardware decoding.
 ### Full app support for non-linear animations at max frame rate!
 ### Immersive Display:
 1. Dynamic fluid background<br>
