@@ -83,6 +83,15 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
+        .footer {
+            position: absolute;
+            bottom: 2%;
+            right: 2%;
+            font-size: 1.5vw;
+            text-align: right;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
         @media (min-width: 768px) {
             .center-text {
                 font-size: 4vw;
@@ -96,6 +105,10 @@
                 font-size: 2.5vw;
                 border-radius: 1.5vw;
                 padding: 1.5vw 4vw;
+            }
+
+            .footer {
+                font-size: 1.2vw;
             }
         }
 
@@ -113,13 +126,17 @@
                 border-radius: 1vw;
                 padding: 1vw 3vw;
             }
+
+            .footer {
+                font-size: 1vw;
+            }
         }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const button = document.querySelector('.button');
             button.addEventListener('click', () => {
-                
+                alert('于2025.1.19日起发布，请时刻关注GitHub');
             });
 
             button.addEventListener('touchstart', (e) => {
@@ -144,5 +161,9 @@
     <button class="button">
         下载最新版本（Android）
     </button>
+    <div class="footer">
+        作者: HuberHayu<br>
+        版本: 1.0.0
+    </div>
 </body>
 </html>
