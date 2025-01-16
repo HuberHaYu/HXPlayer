@@ -5,31 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HXPlayer</title>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
-            background-image: url('pic');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            font-family: Arial, sans-serif;
-            color: #fff;
-            text-align: center;
+            height: 100%;
+            overflow: hidden;
         }
-        .content {
-            margin: 0;
-            padding: 50px;
-            background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-            border-radius: 10px;
-            display: inline-block;
+
+        body {
+            position: relative;
+            font-family: Arial, sans-serif;
+            color: white; /* 全局文字白 */
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://huberhayu.github.io/HXPlayer/image/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(32px);
+            transform: scale(1.2);
+            transform-origin: center; /* 放大锚点 */
+            z-index: -1;
+        }
+
+        .center-text {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%) translateZ(0);
+            font-size: 120px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 16px 17px 24px rgba(0, 0, 0, 0.8);
+        }
+
+        .sub-text {
+            position: absolute;
+            top: calc(35% + 120px + 30px);
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 30px;
+            font-weight: normal;
+            text-align: center;
+            text-shadow: 16px 17px 16px rgba(0, 0, 0, 0.8);
+        }
+
+        .button {
+            position: absolute;
+            top: calc(35% + 120px + 30px + 100px);
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff6f61;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border: none; /* 去框 */
+            border-radius: 20px;
+            padding: 15px 30px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* 按钮小动画 */
+        .button:active {
+            transform: translateX(-50%) scale(0.9); /* 缩放到 * 倍 */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 按下时阴影减少 */
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>测试</h1>
-        <p>测试测试测试</p>
-        <a href="https://github.com/username/my-project" style="color: #4caf50; text-decoration: none;">测试访问 GitHub 仓库</a>
+    <div class="center-text">
+        HXPlayer
     </div>
+    <div class="sub-text">
+        让播放，成为一种享受
+    </div>
+    <button class="button">
+        下载最新版本（Android）
+    </button>
 </body>
 </html>
