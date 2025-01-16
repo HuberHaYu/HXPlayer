@@ -10,6 +10,9 @@
             padding: 0;
             height: 100%;
             overflow: hidden;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         body {
@@ -72,6 +75,7 @@
             cursor: pointer;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .button:active {
@@ -111,6 +115,24 @@
             }
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const button = document.querySelector('.button');
+            button.addEventListener('click', () => {
+                
+            });
+
+            button.addEventListener('touchstart', (e) => {
+                e.preventDefault();
+                button.style.transform = 'translateX(-50%) scale(0.9)';
+            });
+
+            button.addEventListener('touchend', (e) => {
+                e.preventDefault();
+                button.style.transform = 'translateX(-50%) scale(1)';
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="center-text">
