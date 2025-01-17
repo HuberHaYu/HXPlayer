@@ -13,6 +13,7 @@
             -webkit-user-select: none;
             -ms-user-select: none;
             user-select: none;
+            color: black;
         }
 
         body {
@@ -155,8 +156,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             const button = document.querySelector('.button');
             button.addEventListener('click', () => {
-                alert('于2025.1.19日起发布，请时刻关注GitHub');
-                showMessage('于2025.1.19日起发布，请时刻关注GitHub');
+                forceAlert('于2025.1.19日起发布，请时刻关注GitHub与BiliBili');
             });
 
             button.addEventListener('touchstart', (e) => {
@@ -169,25 +169,10 @@
                 button.style.transform = 'translateX(-50%) scale(1)';
             });
         });
-
-        function showMessage(message) {
-            const messageBox = document.createElement('div');
-            messageBox.textContent = message;
-            messageBox.style.position = 'fixed';
-            messageBox.style.top = '50%';
-            messageBox.style.left = '50%';
-            messageBox.style.transform = 'translate(-50%, -50%)';
-            messageBox.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-            messageBox.style.color = 'white';
-            messageBox.style.padding = '20px';
-            messageBox.style.borderRadius = '10px';
-            messageBox.style.fontSize = '1.5vw';
-            messageBox.style.zIndex = '9999';
-            document.body.appendChild(messageBox);
-
+        function forceAlert(message) {
             setTimeout(() => {
-                messageBox.remove();
-            }, 2000); // 2秒后移除提示框
+                alert(message);
+            }, 50);
         }
     </script>
 </head>
