@@ -1,6 +1,6 @@
 # HXPlayer
-## [-->  项目主页入口 （PC端）  <--](https://raw.githubusercontent.com/HXPlayer/html_page/HXPlayer_Hub_Lab.html)
-## [-->  项目主页入口 （移动端）  <--](https://raw.githubusercontent.com/HXPlayer/html_page/HXPlayer_Hub_Lab_Mobile.html)
+## [-->  项目主页入口 （PC端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab.html)
+## [-->  项目主页入口 （移动端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab_Mobile.html)
 ## 开发中（Under development）
 **[⚠️ 开源特殊规定！务必查看！ ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br><br>**
 **[⚠️ Important Open Source Notice! ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br>**
