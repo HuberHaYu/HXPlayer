@@ -14,14 +14,14 @@
             -ms-user-select: none;
             user-select: none;
             color: black;
+            font-family: Arial, sans-serif;
         }
-
+    
         body {
             position: relative;
-            font-family: Arial, sans-serif;
             color: white;
         }
-
+    
         body::before {
             content: '';
             position: absolute;
@@ -38,7 +38,7 @@
             transform-origin: center;
             z-index: -1;
         }
-
+    
         .center-text {
             position: absolute;
             top: 30%;
@@ -50,6 +50,17 @@
             text-shadow: 16px 17px 24px rgba(0, 0, 0, 0.8);
         }
 
+        .center-text-2 {
+            position: absolute;
+            top: 90%;
+            left: 25%;
+            transform: translate(-50%, -50%) translateZ(0);
+            font-size: 5.5vw;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 16px 17px 24px rgba(0, 0, 0, 0.8);
+        }
+    
         .sub-text {
             position: absolute;
             top: calc(30% + 12vw + 10vw);
@@ -60,7 +71,7 @@
             text-align: center;
             text-shadow: 16px 17px 16px rgba(0, 0, 0, 0.8);
         }
-
+    
         .button {
             position: absolute;
             top: calc(30% + 12vw + 60vw);
@@ -77,13 +88,14 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
             -webkit-tap-highlight-color: transparent;
+            z-index: 200;
         }
-
+    
         .button:active {
             transform: translateX(-50%) scale(0.9);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
-
+    
         .footer {
             position: absolute;
             bottom: 2%;
@@ -92,7 +104,7 @@
             text-align: right;
             color: rgba(255, 255, 255, 0.8);
         }
-
+    
         .video-container {
             position: absolute;
             top: 10%;
@@ -104,59 +116,149 @@
             max-height: 100%;
             z-index: 1;
         }
-
+    
         video {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* 保证视频填充整个容器 */
+            object-fit: cover;
             border-radius: 10px;
         }
+    
+        /* 顶部工具栏 */
+        .toolbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0);
+            color: rgba(255, 255, 255, 0.829);
+            padding: 2.5% 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            z-index: 100;
+        }
+    
+        .toolbar .logo {
+            display: none;
+        }
+    
+        .toolbar .menu-icon {
+            font-size: 2rem;
+            cursor: pointer;
+            padding-left: 5%;
+        }
+    
+        /* 侧边菜单样式 */
+        .side-menu {
+            position: fixed;
+            top: 0%;
+            left: -100%; /* 初始位置 */
+            width: 50%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px); /* 毛玻璃效果 */
+            color: rgba(255, 255, 255, 0.829);
+            transition: left 0.3s ease; /* 动画过渡 */
+            z-index: 50;
+            padding: 20px;
+        }
 
+        /* 侧边菜单展开后的位置 */
+        .side-menu.open {
+            left: 0; /* 展开时的位置 */
+        }
+    
+        .side-menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        .side-menu ul li {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(226, 226, 226, 0.151);
+        }
+    
+        .side-menu ul li a {
+            color: rgba(255, 255, 255, 0.726);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            top: 6%;
+        }
+    
+        /* 侧边菜单遮罩 */
+        .side-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0; /* 初始状态隐藏 */
+            transition: opacity 0.3s ease; /* 添加淡入淡出过渡效果 */
+            z-index: 0;
+        }
+
+        .side-menu-overlay.open {
+            opacity: 1; /* 展开时变为完全可见 */
+        }
+    
         @media (min-width: 768px) {
             .center-text {
                 font-size: 4vw;
             }
 
+            .center-text-2 {
+                font-size: 4vw;
+            }
+    
             .sub-text {
                 font-size: 2vw;
             }
-
+    
             .button {
                 font-size: 2.5vw;
                 border-radius: 1.5vw;
                 padding: 1.5vw 4vw;
             }
-
+    
             .footer {
                 font-size: 1.2vw;
             }
         }
-
+    
         @media (min-width: 1200px) {
             .center-text {
                 font-size: 3vw;
             }
 
+            .center-text-2 {
+                font-size: 3vw;
+            }
+    
             .sub-text {
                 font-size: 1.5vw;
             }
-
+    
             .button {
                 font-size: 2vw;
                 border-radius: 1vw;
                 padding: 1vw 3vw;
             }
-
+    
             .footer {
                 font-size: 1vw;
             }
         }
     </style>
+    
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const button = document.querySelector('.button');
             button.addEventListener('click', () => {
-                forceAlert('于2025.1.19日起发布，请时刻关注GitHub与BiliBili');
+                alert('于2025.1.19日起发布，请时刻关注GitHub');
+                showMessage('于2025.1.19日起发布，请时刻关注GitHub');
             });
 
             button.addEventListener('touchstart', (e) => {
@@ -168,70 +270,170 @@
                 e.preventDefault();
                 button.style.transform = 'translateX(-50%) scale(1)';
             });
+
+            const menuIcon = document.querySelector('.menu-icon');
+            const sideMenu = document.querySelector('.side-menu');
+            const overlay = document.querySelector('.side-menu-overlay');
+
+            menuIcon.addEventListener('click', () => {
+                sideMenu.classList.toggle('open');
+                overlay.classList.toggle('open');
+            });
+
+            overlay.addEventListener('click', () => {
+                sideMenu.classList.remove('open');
+                overlay.classList.remove('open');
+            });
         });
-        function forceAlert(message) {
+
+        function showMessage(message) {
+            const messageBox = document.createElement('div');
+            messageBox.textContent = message;
+            messageBox.style.position = 'fixed';
+            messageBox.style.top = '50%';
+            messageBox.style.left = '50%';
+            messageBox.style.transform = 'translate(-50%, -50%)';
+            messageBox.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+            messageBox.style.color = 'white';
+            messageBox.style.padding = '20px';
+            messageBox.style.borderRadius = '10px';
+            messageBox.style.fontSize = '1.5vw';
+            messageBox.style.zIndex = '9999';
+            document.body.appendChild(messageBox);
+
             setTimeout(() => {
-                alert(message);
-            }, 50);
+                messageBox.remove();
+            }, 2000); // 2秒后移除提示框
         }
+
+        /* 侧边打断动画 */
+        document.addEventListener('DOMContentLoaded', () => {
+            const button = document.querySelector('.button');
+            const menuIcon = document.querySelector('.menu-icon');
+            const sideMenu = document.querySelector('.side-menu');
+            const overlay = document.querySelector('.side-menu-overlay');
+            
+            menuIcon.addEventListener('click', () => {
+                const currentLeft = sideMenu.style.left;  // 获取当前的 left 值
+                
+                // 如果菜单已展开，从当前位置关闭
+                if (currentLeft === '0px') {
+                    sideMenu.style.transition = 'left 0.3s ease'; // 设置动画过渡
+                    sideMenu.style.left = `-${sideMenu.offsetWidth}px`; // 从当前位置收回
+                    overlay.classList.remove('open');
+                } else { 
+                    sideMenu.style.transition = 'left 0.3s ease'; // 设置动画过渡
+                    sideMenu.style.left = '0'; // 展开侧边菜单
+                    overlay.classList.add('open');
+                }
+                if (sideMenu.classList.contains('open')) {
+                    sideMenu.style.zIndex = '300';
+                } else {
+                    sideMenu.style.zIndex = '0';
+                }
+            });
+
+            // 关闭侧边菜单时，点击遮罩层
+            overlay.addEventListener('click', () => {
+                sideMenu.style.transition = 'left 0.3s ease'; // 设置动画过渡
+                sideMenu.style.left = `-${sideMenu.offsetWidth}px`; // 从当前位置收回
+                overlay.classList.remove('open');
+                sideMenu.style.zIndex = '0';
+            });
+        });
+
+        /* 界面切换 */
+        document.addEventListener('DOMContentLoaded', () => {
+            const homeLink = document.getElementById('home');
+            const homeContent = document.getElementById('home-content');
+            const sideMenu = document.querySelector('.side-menu');
+            const overlay = document.querySelector('.side-menu-overlay');
+            const currentLeft = sideMenu.style.left;  // 获取当前的 left 值
+            // 控制内容切换
+            homeLink.addEventListener('click', () => {
+                sideMenu.style.transition = 'left 0.3s ease'; // 设置动画过渡
+                sideMenu.style.left = `-${sideMenu.offsetWidth}px`; // 从当前位置收回
+                overlay.classList.remove('open');
+                window.open('https://github.com/HuberHaYu/HXPlayer', '_blank');
+            });
+        });
     </script>
 </head>
 <body>
-    <div class="center-text">
-        HXPlayer
+    <!-- 顶部工具栏 -->
+    <div class="toolbar">
+        <div class="logo">HXPlayer</div>
+        <div class="menu-icon">☰</div>
     </div>
-    <div class="sub-text">
-        让播放，成为一种享受
-    </div>
-    <button class="button">
-        下载最新版本（Android）
-    </button>
 
-    <div class="video-container">
-        <video autoplay loop muted>
-            <source src="https://huberhayu.github.io/HXPlayer/video_demo/Page_ADemo.mp4" type="video/mp4">
-        </video>
+    <!-- 侧边菜单 -->
+    <div class="side-menu">
+        <ul>
+            <li><a href="#" id="home">GitHub项目地址</a></li>
+        </ul>
     </div>
-    
-    <style>
-        .video-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 177.77%;
-            overflow: hidden;
-            background: transparent;
-            transform: translate(-70%, 0%);
-            filter: blur(16px);
-            z-index: -1;
-        }
-    
-        .video-container video {
-            position: absolute;
-            top: 65%;
-            left: 200%;
-            width: 60%;
-            height: auto;
-            transform: translate(-300%, -60%);
-            object-fit: contain;
-            pointer-events: none;
-            border-radius: 25px;
-        }
 
-        .footer {
-            position: absolute;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: rgb(224, 224, 224);
-            font-size: 0.7em;
-            text-align: center;
-        }
-    </style>
-    
-    <div class="footer">
-        作者: Huber_HaYu | Ray<br>
-        版本: 1.0.0 (将于2025.1.19发布Beta 1测试)
+    <!-- 侧边菜单遮罩 -->
+    <div class="side-menu-overlay"></div>
+
+    <!-- 主界面 - 容器 -->
+    <div class="content" id="home-content">
+        <div class="center-text">
+            HXPlayer
+        </div>
+        <div class="sub-text">
+            让播放，成为一种享受
+        </div>
+        <button class="button">
+            下载最新版本（Android）
+        </button>
+
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="https://huberhayu.github.io/HXPlayer/video_demo/Page_ADemo.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <style>
+            .video-container {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 177.77%;
+                overflow: hidden;
+                background: transparent;
+                transform: translate(-70%, 0%);
+                filter: blur(16px);
+                z-index: -1;
+            }
+        
+            .video-container video {
+                position: absolute;
+                top: 60%;
+                left: 200%;
+                width: 60%;
+                height: auto;
+                transform: translate(-300%, -50%);
+                object-fit: contain;
+                pointer-events: none;
+                border-radius: 25px;
+            }
+
+            .footer {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: rgb(224, 224, 224);
+                font-size: 0.7em;
+                text-align: center;
+            }
+        </style>
+        
+        <div class="footer">
+            作者: Huber_HaYu | Ray<br>
+            版本: 1.0.0 (将于2025.1.19发布Beta 1测试)
+        </div>
     </div>
 </body>
 </html>
