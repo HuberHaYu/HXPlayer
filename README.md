@@ -1,7 +1,7 @@
 # HXPlayer
 ## [-->  项目主页入口 （PC端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab.html)
 ## [-->  项目主页入口 （移动端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab_Mobile.html)
-## 开发中（Under development）
+## 已发布1.0 Beta（Release Beta 1.0）
 **[⚠️ 开源特殊规定！务必查看！ ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br><br>**
 **[⚠️ Important Open Source Notice! ⚠️](https://huberhayu.github.io/HXPlayer/Huber_Lab_LICENCE.txt)<br>**
 ## 已开放针对Java语言的控件动画开源框架
@@ -24,7 +24,6 @@ Image Banner Designed by HuberHaYu<br>
 ## 最低推荐配置：骁龙865<br>
 #### 在这里时刻关注开发进度，目前处于Beta开发测试阶段，不代表最终成品<br>
 ## HXPlayer基于安卓12开发，请确保设备安卓版本 ≥ 12
-## ↓当前开发进度↓（即将发布）
 ## 播放器功能：
 ### 播放规格：
 标准最高支持质量：192Khz | 24Bit<br>
@@ -52,7 +51,6 @@ Image Banner Designed by HuberHaYu<br>
 ## Minimum System Requirements: Snapdragon 865<br>
 #### Keep track of the development progress here. Currently in Beta development testing, does not represent the final product.<br>
 ## HXPlayer is developed based on Android 12, please ensure the device version is ≥ 12.
-## ↓Current development progress↓ (Comming Soon)
 ## Player Features:
 ### Playback Specifications:
 Standard max supported quality: 192Khz | 24Bit<br>
