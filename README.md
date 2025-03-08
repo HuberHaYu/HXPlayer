@@ -1,4 +1,5 @@
 # HXPlayer
+# 此项目已更新，请前往-> [Salamander Music](https://github.com/HuberHaYu/Salamander-Music-)
 ## [-->  项目主页入口 （PC端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab.html)
 ## [-->  项目主页入口 （移动端）  <--](https://huberhayu.github.io/HXPlayer/html_page/HXPlayer_Hub_Lab_Mobile.html)
 ## 已发布1.0 Beta（Release Beta 1.0）
